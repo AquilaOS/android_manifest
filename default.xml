@@ -21,19 +21,20 @@
 
   <!-- Begin apolloOS -->
   <project path="art" name="art" remote="ao" />
-  <project name="platform_build" path="build" remote="ao" />
+  <project name="android_build" path="build" remote="ao" />
   <copyfile src="core/root.mk" dest="Makefile" />
      </project>
   <project path="bootable/recovery" name="bootable_recovery" remote="ao" />
-  <project path="frameworks/av" name="platform_frameworks_av"  remote="ao" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="ao" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="ao" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony"  remote="ao" />
-  <project name="platform_manifest" path="manifest" remote="ao" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="ao" />
-  <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="ao" />
-  <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="ao" />
-  <project path="bionic" name="platform_bionic" groups="pdk" remote="ao" />
+  <project path="frameworks/av" name="android_frameworks_av"  remote="ao" />
+  <project path="frameworks/base" name="android_frameworks_base"  remote="ao" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="ao" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="ao" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony"  remote="ao" />
+  <project name="android_manifest" path="manifest" remote="ao" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="ao" />
+  <project path="build/kati" name="android_build_kati" groups="pdk,tradefed" remote="ao" />
+  <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="ao" />
+  <project path="bionic" name="android_bionic" groups="pdk" remote="ao" />
   <project path="vendor/ao" name="vendor_ao" remote="ao" />
   <!-- End apolloOS -->
   
@@ -105,7 +106,6 @@
   <!-- End CyanogenMod -->
 
   <!-- Begin Android Open Source Project -->
-  <project path="frameworks/base" name="platform/frameworks/base"  remote="aosp" />
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
