@@ -26,7 +26,7 @@
   <project path="art" name="art" remote="ao" />
   <project name="android_build" path="build" remote="ao" />
   <copyfile src="core/root.mk" dest="Makefile" />
-     </project>
+  
   <project path="bootable/recovery" name="bootable_recovery" remote="ao" />
   <project path="frameworks/av" name="android_frameworks_av"  remote="ao" />
   <project path="frameworks/base" name="android_frameworks_base"  remote="ao" />
