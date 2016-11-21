@@ -1,16 +1,12 @@
 ----------------
-apolloOS Project
+ApolloOS Project
 ----------------
-
-### an ecosystem. redefined. ###
 
 ## Credits ##
 
 *CYANOGENMOD*
 
 *ALL PEOPLE WHOSE COMMITS HAVE BEEN USED*
-
-*ANDROID OPENSOURCE PROJECT*
 
 ## License ##
 LICENSED UNDER GNU GPL 3.0 unless otherwise specified
