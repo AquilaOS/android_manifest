@@ -2,10 +2,4 @@
 AquilaOS Project
 ----------------
 
-### an ecosystem. redefined. ###
-
-## Credits ##
-
-Added later
-
 ### WIP. DO not SYNC! ###
